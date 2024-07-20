@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Random;
 
-public class GenerateCSV {
+public class GenerateCSV2 {
     public static void main(String[] args) {
         String csvFile = "data.csv";
         DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
