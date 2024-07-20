@@ -13,7 +13,7 @@ public class GenerateCSV2 {
         String[] cities = {"New York", "Los Angeles", "Chicago", "Houston", "Phoenix"};
 
         // Nombre total de lignes à générer
-        long totalLines = 333_333_333_334L;
+        long totalLines = 1000000L;
 
         try (FileWriter writer = new FileWriter(csvFile)) {
             writer.append("date,city,temperature\n");
