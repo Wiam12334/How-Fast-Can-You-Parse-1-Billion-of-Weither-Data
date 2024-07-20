@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class GenerateCSV2 {
     public static void main(String[] args) {
-        String csvFile = "data.csv";
+        String csvFile = "data2.csv";
         DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         LocalDate startDate = LocalDate.of(2020, 1, 1);
         Random random = new Random();
